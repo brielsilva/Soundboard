@@ -1,0 +1,26 @@
+[   
+    {
+        "title":"Chicken",
+        "src":"sounds/chicken.mp3"
+    },
+    {
+        "title":"Dog",
+        "src":"sounds/dog.mp3"
+    },
+    {
+        "title":"Insect",
+        "src":"sounds/insect.mp3"
+    },
+    {
+        "title":"Bite",
+        "src":"sounds/bite.mp3"
+    },
+    {
+        "title":"Snoring",
+        "src":"sounds/snoring.mp3"
+    },
+    {
+        "title":"Dolphin",
+        "src":"sounds/dolphin.mp3"
+    }
+]

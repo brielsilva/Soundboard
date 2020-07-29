@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+section{
+    text-align: center;
+    margin: 0 auto;
+}
+section div{
+    text-align: center;
+    border: 5px solid #ccb03b;
+    border-radius: 20px;
+    background: #81183b;
+    margin: 2px;
+    display: inline-block;
+    width: 30%;
+}
+audio{
+    display:block;
+    margin: 0 0 5px 0;
+}
+
+div{
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.container{
+    margin: 0 3em 0 3em;
+}
+
+.gradient-button{
+    
+    position: relative;
+    z-index: 1;
+    /* Somente ter confiança que o que iremos alterar não vá ser sobreposto*/
+    display: inline-block;
+    padding: 2px 8px;
+    margin-bottom: 2px;
+    font-size: 1.4rem;
+    box-sizing: border-box; /* Nosso objetivo nessa prop é evitar que width/height seja aumentanda conforme mexemos
+                            na nossa borda*/
+    background-color: #81183b;
+    border: solid 10px transparent;
+    border-image: linear-gradient(to top right, orangered,yellow);
+    /* Quando adicionamos essas prop da bordar, vemos que as nossas cores ficam concentradas nos vertices da borda*/
+    /* Vamos corrigir isso com border-image-slice*/
+    border-image-slice: 1; /* Enche toda a borda*/
+    color: orangered;
+    transition: all 0.3s ease-in-out;
+    border-top-style: outset;
+}
+        .gradient-button:hover{
+            
+            background-image: linear-gradient(to top right, orangered,yellow);
+            color: white;
+        }
